@@ -1,4 +1,4 @@
-# dive_into_python
+# Dive into python
 This repository contains completed homework for the Dive into Python course
 
 
