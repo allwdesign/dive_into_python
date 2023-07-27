@@ -5,8 +5,8 @@ SEPARATOR = "/"
 
 try:
 
-    first_string = input("Введите первую дробь: ")
-    second_string = input("Введите вторую дробь: ")
+    first_string = input("Enter first fraction: ")
+    second_string = input("Enter second fraction: ")
 
     first_fraction_values = first_string.split(SEPARATOR)
     second_fraction_values = second_string.split(SEPARATOR)
