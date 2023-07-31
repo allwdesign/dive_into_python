@@ -21,7 +21,7 @@ count_withdrawal = 0
 operations_log = list()
 
 
-def print_log():
+def print_log() -> None:
     """Print information from operations log."""
     for data in operations_log:
         print(f'Action: {data["action"]}. Amount: {data["amount"]:.3f}$')
