@@ -83,9 +83,6 @@ def prepare_data_for_saving(data: Iterator[tuple]) -> list[dict]:
         all_data.extend(sub_dirs_properties)
         all_data.extend(files_properties)
 
-    print("All data:")
-    for data in all_data:
-        print(data)
     return all_data
 
 
