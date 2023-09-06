@@ -4,10 +4,6 @@ directory tree and calculating the size of directories and files.
 import os
 from typing import Iterator
 
-import my_csv
-import my_json
-import my_pickle
-
 MODULE_NAMES = ['json', 'csv', 'pickle']
 
 
