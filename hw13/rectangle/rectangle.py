@@ -1,6 +1,6 @@
 import math
 
-from my_rectanle_exceptions import NegativeSideLengthError
+from my_rectanle_exceptions import NegativeSideLengthError, ZeroSideLengthError
 
 
 class Rectangle:
